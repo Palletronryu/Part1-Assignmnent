@@ -68,3 +68,33 @@ footer{
   height:50px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 768px){
+  header{
+    height: 50px;
+  }
+  
+  main{
+    width:100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .step-box{
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+  
+ .step-box:first-child{
+    margin-top: 50px;
+  }
+  
+  .step-box:last-child{
+    margin-bottom: 50px;
+    margin-right: auto;
+  }
+  
+  header{
+    height: 50px;
+  }
+}
