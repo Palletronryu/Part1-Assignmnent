@@ -28,7 +28,7 @@ main{
 }
 
 .step-image1{
-  background-image: url(img.1-9/flow01.png);
+  background-image: url(img.file/flow01.png);
   height: 150px;
   margin-bottom: 15px;
   background-position: bottom;
@@ -36,7 +36,7 @@ main{
 }
 
 .step-image2{
-  background-image: url(img.1-9/flow02.png);
+  background-image: url(img.file/flow02.png);
   height: 150px;
   margin-bottom: 15px;
   background-position: bottom;
@@ -44,7 +44,7 @@ main{
 }
 
 .step-image3{
-  background-image: url(img.1-9/flow03.png);
+  background-image: url(img.file/flow03.png);
   height: 150px;
   margin-bottom: 15px;
   background-position: bottom;
@@ -69,7 +69,7 @@ footer{
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px){   /*メディアクエリ幅意識*/
   header{
     height: 50px;
   }
