@@ -70,10 +70,6 @@ footer{
 }
 
 @media screen and (max-width: 768px){   /*メディアクエリ幅意識*/
-  header{
-    height: 50px;
-  }
-  
   main{
     width:100%;
     display: flex;
@@ -85,16 +81,8 @@ footer{
     margin: 0 auto 20px;
   }
   
- .step-box:first-child{
-    margin-top: 50px;
-  }
-  
   .step-box:last-child{
-    margin-bottom: 50px;
     margin-right: auto;
-  }
-  
-  header{
-    height: 50px;
+    margin-bottom: 0;
   }
 }
